@@ -1,0 +1,258 @@
+/* All Common CSS Start  */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  /* background-color: #549de5cb; */
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  display: inline-block;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+img {
+  vertical-align: middle;
+}
+/* All Common CSS End  */
+
+/*  header CSS part Start  */
+header {
+  /* padding: 140px 0; */
+  background-color: #e554732c;
+}
+.headside {
+  display: flex;
+  justify-content: space-between;
+}
+.headLeft {
+  width: 55%;
+  padding: 140px 0;
+}
+.headLeft h1 {
+  font-family: "Lato", sans-serif;
+  color: #272727;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  width: 88%;
+}
+.headLeft p {
+  font-family: "Lato", sans-serif;
+  color: rgba(39, 39, 39, 0.6);
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 80%;
+  margin: 32px 0;
+}
+.button {
+  font-family: "Lato", sans-serif;
+  padding: 20px 43px;
+  border-radius: 8px;
+  background: #e55473;
+  font-size: 20px;
+  color: #fff;
+}
+.headRight {
+  width: 44%;
+}
+/* header CSS part End  */
+
+/*  feature CSS part Start  */
+.feature {
+  margin: 128px 0px;
+}
+.feature-content h3 {
+  font-family: "Lato", sans-serif;
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: normal;
+}
+.feature-content p {
+  font-family: "Lato", sans-serif;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  width: 41%;
+  margin: 0 auto;
+}
+.feature_tree {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.tree1 {
+  width: 32%;
+}
+.tree1_img {
+  background-color: #e554732c;
+  padding: 110px 78px 0px 78px;
+  border-radius: 300px 300px 0px 0px;
+  height: 540px;
+  overflow: hidden;
+}
+.tree1 a {
+  color: #272727;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+  width: 100%;
+  margin-top: 32px;
+}
+/* feature CSS part End  */
+
+/*  logo CSS part Start  */
+.logo_part {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 86px 150px 86px 150px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+}
+.logo-1 p {
+  color: rgba(39, 39, 39, 0.8);
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 35px;
+  margin-top: 25px;
+}
+/* logo CSS part End  */
+
+/*  discount CSS part Start  */
+.discount {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e554732c;
+  margin: 128px 0px;
+}
+.discount_left {
+  padding: 230px 0px 180px 0px;
+  width: 42%;
+  margin: 0 auto;
+  text-align: center;
+}
+.discount_left h3 {
+  color: #272727;
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.discount_left span {
+  color: #e55473;
+}
+.discount_left p {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 24px 0px;
+}
+.discount_right {
+  padding: 100px 100px 100px 0px;
+}
+/* discount CSS part End  */
+
+/*  instra CSS part Start  */
+.instra_main {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+}
+/* instar CSS part End  */
+
+/*  deals CSS part Start  */
+.deals {
+  padding: 122px 0px;
+  background-image: url(images/Rectangle\ 9.png);
+  text-align: center;
+}
+.deals_input {
+  margin-top: 50px;
+}
+input[type="text"],
+select {
+  width: 40%;
+  padding: 22px 0px 22px 25px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: none;
+  margin-right: 10px;
+}
+/* deals CSS part End  */
+
+/*  footer CSS part Start  */
+footer {
+  background-color: #111010;
+  margin-top: 128px;
+  padding: 128px 0px;
+}
+.footer-content {
+  text-align: center;
+}
+.footer-content h4 {
+  color: rgba(255, 255, 255, 0.4);
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 32px;
+}
+.footer-content h3 {
+  color: white;
+}
+.footer-content p {
+  color: rgba(255, 255, 255, 0.837);
+  margin-top: 10px;
+}
+.footer-content span {
+  color: #e55473;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+/* foter CSS part End  */
